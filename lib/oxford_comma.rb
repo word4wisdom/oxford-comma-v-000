@@ -4,7 +4,8 @@ def oxford_comma(array)
   elsif array.count == 2
    array.join(" and ")
  elsif array.count == 3
-   array.join(" , and ")
+   array.insert(2, "and").join(" , ")
+ else
    end
  end
 
@@ -13,3 +14,4 @@ def oxford_comma(array)
     #correctly formats arrays of lengths greater than three (FAILED - 4)
     #adds commas plus a final 'and' when given a 3-element array (FAILED - 1)
     #correctly formats arrays of lengths greater than three (FAILED - 2)
+    # a.insert(index, obj)Insert given obj before element at given index of array 
