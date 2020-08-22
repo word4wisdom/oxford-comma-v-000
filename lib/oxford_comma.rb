@@ -14,4 +14,4 @@ def oxford_comma(array)
     #correctly formats arrays of lengths greater than three (FAILED - 4)
     #adds commas plus a final 'and' when given a 3-element array (FAILED - 1)
     #correctly formats arrays of lengths greater than three (FAILED - 2)
-    # a.insert(index, obj)Insert given obj before element at given index of array 
+    # a.insert(index, obj)Insert given obj before element at given index of array
